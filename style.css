@@ -1,0 +1,25 @@
+
+.main-data{
+	background-image: url(img/Main1.jpg);
+	height: 800px;
+	background-size: cover;
+	text-align: center;
+	
+}
+.kotak{
+	border: 5px solid white;
+	height: 1000px;
+	width: 1000px;
+	background-color: grey;
+}
+.box-img{
+	width: 100px;
+	height: 100px;
+}
+.zoom{
+	transition: tranform .2s;
+	margin: 0 auto;
+}
+.zoom:hover{
+	transform: scale(1.05);
+}
